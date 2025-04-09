@@ -1,0 +1,204 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family:"Barlow",arial, Helvetica, sans-serif ;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.header {
+    border-bottom: solid aqua 2px;
+}
+
+.header .container .titulo {
+    color: aqua;
+}
+
+.header .navbar {
+    color: orange;
+    list-style-type: none;
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items:center;
+    width: 375px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: orange;
+}
+
+/* BANNER*/
+.banner {
+    height: 500px;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png"); 
+}
+.banner .container p {
+    color: white;
+    font-size: 40px;
+    width: 45%;
+}
+.banner .container {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.banner .container p span {
+    font-weight: 600px;
+}
+.social {
+    background: white;
+}
+
+.boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+    padding-top: 10px;
+}
+
+.box img {
+    width: 100% ;
+}
+   .box h4 {
+    color: crimson;
+   }
+.footer {
+    height: 150px;
+}
+.footer .container {
+    height: 100%;
+    background-color: rgb(85, 192, 235);
+    width: 100%;
+    align-items: top;
+    justify-content: center;
+    color: white;
+    font-family:"Barlow",arial, Helvetica, sans-serif;
+}
+
+/* Tela de Cadastro */
+.login {
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+    background-size: cover;
+    background-position: center;
+    height: 835px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login .container {
+    width: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-cadastro {
+    background-color: lightgrey;
+    width: 700px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+  }
+  .card-cadastro h1 {
+    color:rgb(245, 84, 132);
+    margin-bottom: 20px;
+  }
+  .card-cadastro .formulario .campo {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  .card-cadastro .formulario .campo span {
+    display: block;
+    color: rgb(245, 84, 132);
+    padding: 5px;
+    text-align:left ;
+    width: auto;
+    
+  }
+  .card-cadastro .formulario input {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid; color: rgb(62, 186, 228);
+    border-radius: 5px;
+    text-align: center;
+  }
+  .card-cadastro .formulario .botao {
+    background-color: rgb(231, 28, 89);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: unset;
+}
+.footer {
+    height: 37px;
+}
+.footer .container {
+    height: 37px;
+}
+/* Tela de Login */
+
+.login .card-login{
+    background-color: lightgrey;
+    width: 700px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+.card-login h1{
+    color:rgb(245, 84, 132);
+    margin-bottom: 20px;
+}
+.card-login .formulario .campo{
+    margin-bottom: 15px;
+    text-align: left;
+}
+.card-login .formulario .campo span {
+    display: block;
+    color: rgb(245, 84, 132);
+    padding: 5px;
+    text-align:left ;
+    width: auto;
+}
+.card-login .formulario input {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid; color: rgb(62, 186, 228);
+    border-radius: 5px;
+    text-align: center;
+  }
+  .card-login .formulario .botao {
+    background-color: rgb(231, 28, 89);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: unset;
+}
